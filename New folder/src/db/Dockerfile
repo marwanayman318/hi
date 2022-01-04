@@ -1,2 +1,2 @@
-FROM mongo
+FROM mongo:latest
 EXPOSE 27017
