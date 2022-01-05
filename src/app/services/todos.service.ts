@@ -13,12 +13,12 @@ export class TodosService {
 
   getTodos()
   {
-    return this._HttpClient.get('http://localhost:3000');
+    return this._HttpClient.get('http://back-nice.apps.eu45.prod.nextcle.com/');
   }
 
 
   saveTodo(todo : Todo)
   {
-    return this._HttpClient.post('http://localhost:3000', todo);
+    return this._HttpClient.post('http://back-nice.apps.eu45.prod.nextcle.com/', todo);
   }
 }
